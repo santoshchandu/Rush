@@ -36,40 +36,9 @@ A Chromium browser extension that allows you to control video playback speed up 
 
 When using keyboard shortcuts, a notification will appear on screen showing the current speed.
 
-## Icons
-
-For the extension to display properly, you need to add icon files. You can:
-
-1. Create your own icons (16x16, 48x48, 128x128 pixels)
-2. Use an online icon generator like [favicon.io](https://favicon.io)
-3. Or temporarily remove the icon references from `manifest.json`
-
-Save them as:
-- `icon16.png`
-- `icon48.png`
-- `icon128.png`
-
 ## Troubleshooting
 
 - **Extension not working on a page**: Some websites may have restrictions. Try refreshing the page after installing the extension.
 - **No videos found**: Make sure the page has HTML5 video elements.
 - **Keyboard shortcuts not working**: Make sure the page is focused and you're holding the Shift key.
 
-## Technical Details
-
-- **Manifest Version**: 3
-- **Permissions**: activeTab, scripting
-- **Compatible with**: Chrome, Edge, Brave, and other Chromium-based browsers
-
-## Files
-
-- `manifest.json` - Extension configuration
-- `popup.html` - Popup interface
-- `popup.css` - Popup styling
-- `popup.js` - Popup functionality
-- `content.js` - Content script that controls video playback
-
-## License
-
-Free to use and modify.
-# Rush
